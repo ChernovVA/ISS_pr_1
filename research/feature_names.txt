@@ -1,0 +1,12 @@
+num_poly__Present_Price
+num_poly__Driven_kms
+num_poly__Age
+num_poly__Present_Price^2
+num_poly__Present_Price Driven_kms
+num_poly__Present_Price Age
+num_poly__Driven_kms^2
+num_poly__Driven_kms Age
+num_poly__Age^2
+cat__Fuel_Type
+cat__Selling_type
+cat__Transmission

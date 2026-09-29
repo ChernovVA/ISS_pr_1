@@ -1,0 +1,3 @@
+num_poly__Present_Price
+num_poly__Age^2
+cat__Fuel_Type

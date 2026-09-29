@@ -1,3 +1,5 @@
 .venv_Pr_1
 .vscode
 data
+mlflow/mlartifacts
+mlflow/mlruns.db
