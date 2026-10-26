@@ -3,3 +3,4 @@
 data
 mlflow/mlartifacts
 mlflow/mlruns.db
+services/ml_service/__pycache__

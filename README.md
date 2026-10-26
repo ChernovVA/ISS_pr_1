@@ -73,11 +73,15 @@ run_id: a159f66a386a406a92c4fe204e912941
 
 Из папки services/ml_service выполнить команду:
 
+```
 sudo docker build -t car-price-predict-service:1 .
+```
 
 Команда для запуска:
 
+```
 sudo docker run --rm --name car-price-api -p 8000:8000 -v "$(pwd)/../models:/models:ro" car-price-predict-service:1
+```
 
 
 #### Проверка работоспособности микросервиса
@@ -95,6 +99,7 @@ URL: `http://localhost:8000/api/prediction?item_id=67`
 
 Тело запроса:
 
+```
 {
   "Age": 3,
   "Present_Price": 5,
@@ -103,11 +108,13 @@ URL: `http://localhost:8000/api/prediction?item_id=67`
   "Selling_type": "Dealer",
   "Transmission": "Manual"
 }
-
+```
 
 Ответ:
 
+```
 {
   "item_id": 67,
   "price": 3.7774390243902447
 }
+```
