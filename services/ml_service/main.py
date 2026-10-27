@@ -32,5 +32,5 @@ def prediction(item_id: int, car: Car):
 
     return {
         "item_id": item_id,
-        "price": price
+        "price": price,
     }

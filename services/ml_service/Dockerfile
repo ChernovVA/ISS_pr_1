@@ -1,12 +1,14 @@
 FROM python:3.11-slim
 
-COPY . /ml_service
-
-VOLUME /models
-
 WORKDIR /ml_service
 
+COPY requirements.txt .
+
 RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+VOLUME /models
 
 EXPOSE 8000
 
